@@ -1,3 +1,3 @@
 name: Wicked Rainman
-markdown: kramdown
+markdown: markdown
 permalink: /blog/:year/:month/:day/:title
