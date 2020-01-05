@@ -1,5 +1,6 @@
 name: Wicked Rainman
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-
 theme: jekyll-theme-cayman
+title: Welcome to Wicked Rainman's home page
+description: Here you will find links to some of the random code I've written over the years. Feel free to browse!
