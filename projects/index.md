@@ -3,13 +3,19 @@ layout: default
 title: Wicked Rainman's projects
 ---
 
-# Programming projects 
+# Programming projects  
+
 ---------------------
-__DAPL__     
 
-Spent quite a while writing the _Data Analist Programming Language_. It's supposed to make life a bit easier when your looking for interesting patterns of activity in things like Web logs Etc. The whole idea seems to have fallen on deaf ears (maybe because it's no good), but I've left the code around just in case anyone shows any interest. Have a look [here](https://github.com/wicked-rainman/DAPL "Go on, click it. You know you want to!") if you are interested.   
+__Indoor display for Aercus IP weather station__
 
-------------
+A few years ago I purchased an [Aercus](http://www.aercusinstruments.com/aercus-instruments-weathersleuth-professional-ip-weather-station-with-direct-real-time-internet-monitoring/ "God bless the Aercus folks in New Zealand, but you can buy them in the UK from www.greenfrogscientific.co.uk" ) weather station. and configured it to send all the data to Weather Underground. My only complaint about this devices is it doesn't come with an indoor display.  
+
+You can view the weather by directly connecting to the device's HTTP port, but I wanted something I could glance at without firing up a PC. To solve this I used a Raspberry Pi with a [Micro dot pHAT](https://shop.pimoroni.com/products/microdot-phat?variant=25454635591 "Go Sheffield!!!" ) attached and wrote a bit of [code](https://github.com/wicked-rainman/Aercus-IP-weather-station) that connects over WiFi and scrapes the web page. 
+
+The code runs in a loop forever, so you either need to background it as a process or write a daemon so it runs from boot.  
+
+----------------------------
 
 __Micro dot pHAT for a Raspberry Pi__
 
@@ -21,15 +27,11 @@ I couldn't find  any C programs to get the board going (everyone seems to love p
 
 -------------------
 
-__Indoor display for Aercus IP weather station__
+__DAPL__     
 
-A few years ago I purchased an [Aercus](http://www.aercusinstruments.com/aercus-instruments-weathersleuth-professional-ip-weather-station-with-direct-real-time-internet-monitoring/ "God bless the Aercus folks in New Zealand, but you can buy them in the UK from www.greenfrogscientific.co.uk" ) weather station. and configured it to send all the data to Weather Underground. My only complaint about this devices is it doesn't come with an indoor display.  
+Spent quite a while writing the _Data Analist Programming Language_. It's supposed to make life a bit easier when your looking for interesting patterns of activity in things like Web logs Etc. The whole idea seems to have fallen on deaf ears (maybe because it's no good), but I've left the code around just in case anyone shows any interest. Have a look [here](https://github.com/wicked-rainman/DAPL "Go on, click it. You know you want to!") if you are interested.   
 
-You can view the weather by directly connecting to the device's HTTP port, but I wanted something I could glance at without firing up a PC. To solve this I used a Raspberry Pi with a [Micro dot pHAT](https://shop.pimoroni.com/products/microdot-phat?variant=25454635591 "Go Sheffield!!!" ) attached and wrote a bit of [code](https://github.com/wicked-rainman/Aercus-IP-weather-station) that connects over WiFi and scrapes the web page. 
-
-The code runs in a loop forever, so you either need to background it as a process or write a daemon so it runs from boot.  
-
-----------------------------
+------------
 
 __War driving with an M5Stack__
 
