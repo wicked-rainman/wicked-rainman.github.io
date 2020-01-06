@@ -1,5 +1,4 @@
 name: Wicked Rainman
-markdown: markdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-cayman
 title: Welcome to Wicked Rainman's home page
