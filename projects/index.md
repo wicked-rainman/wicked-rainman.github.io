@@ -30,3 +30,11 @@ You can view the weather by directly connecting to the device's HTTP port, but I
 The code runs in a loop forever, so you either need to background it as a process or write a daemon so it runs from boot.  
 
 ----------------------------
+
+__War driving with an M5Stack__
+
+![(/pictures/m5stack.png "You would have thought I could have cleaned the crud off the screen before taking the picture, but no!)
+
+I sometimes view the [M5Stack](https://m5stack.com/) as a neat substitute for an Arduino (I guess it all depends on what you plan to do). I was attracted to it because it's modular, comes in a cool case and has a built in display and some buttons. 
+
+I bougth the Fire version because it's red and has some additional built in sensors that the other versions don't have. If you buy this version then you loose the use of some of the ESP32 IO pins, but you pays your money and makes your choice!
