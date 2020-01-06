@@ -40,4 +40,5 @@ I sometimes view the [M5Stack](https://m5stack.com/) as a neat substitute for an
 I bougth the Fire version because it's red and has some additional built in sensors that the other versions don't have. If you buy this version then you loose the use of some of the ESP32 IO pins, but you pays your money and makes your choice!
 
 There's also a range of backpack styled modules available. They get attacked to the back of the unit and are held in place with magnets embedded in the case. All in all, quite a fun product to play with. I shelled out further and bought a GPS backpack. WiFi and Bluetooth are built in, so I wrote some [war driving code and a bluetooth scanner](https://github.com/wicked-rainman/M5Stack-Fire). With the addition of a  usb battery bank, it seems to work very well!
+
 --------------------------
