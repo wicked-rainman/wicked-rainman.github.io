@@ -1,5 +1,6 @@
 name: Wicked Rainman
 permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
 theme: jekyll-theme-cayman
 title: Welcome to Wicked Rainman's home page
 description: Feel free to browse!
