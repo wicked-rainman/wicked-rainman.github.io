@@ -37,7 +37,7 @@ __War driving with an M5Stack__
 
 ![](/pictures/M5stack.png "You would have thought I could have cleaned the crud off the screen before taking the picture, but no!")
 
-I sometimes view the [_M5Stack_](https://m5stack.com/ "You can buy them in the UK from several sources") as a neat substitute for an Arduino (I guess it all depends on what you plan to do). I was attracted to it because it's modular, comes in a cool case and has a built in display and buttons. 
+I sometimes view the [_M5Stack_](https://m5stack.com/ "You can buy them in the UK from several sources") as a neat substitute for an Arduino (I guess it all depends on what you plan to do). I was attracted to it because it's modular, comes in a cool case and has a built in display and buttons (Carrying around a board and wires wrapped in gaffer tape isn't a good look). 
 
 I bougth the Fire version because it's red and has some additional built in sensors that the other versions don't have (Mostly, if I'm honest I bought it because its red). If you buy this version then you loose the use of some of the ESP32 IO pins, but you pays your money and takes your choice!
 
