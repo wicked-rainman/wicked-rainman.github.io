@@ -20,3 +20,8 @@ Recently bought a Micro Dot pHAT to go on a Raspberry Pi. Onboard are three smt 
 I couldn't find  any C programs to get the board going (everyone seems to love python these days!) In the end I grabbed fragments of code I found on the Internet and wrote a small set of [functions](https://github.com/wicked-rainman/Rpi-Micro-Dot-pHAT "Print a string, update and reset the display and set brightness") that I think are useful. Help yourself if you were looking for a simple solution.
 
 -------------------
+
+__Indoor display for Aercus IP weather station__
+
+A few years ago I purchased an [Aercus}(http://www.aercusinstruments.com/aercus-instruments-weathersleuth-professional-ip-weather-station-with-direct-real-time-internet-monitoring/) weather station. and configured it to send all the data to Weather Underground.
+
