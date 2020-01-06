@@ -7,7 +7,7 @@ title: Wicked Rainman's projects
 
 __DAPL__     
 
-Spent quite a while writing the <i>Data Analist Programming Language</i>. It's supposed to make life a bit easier when your looking for interesting patterns of activity in things like Web logs Etc. The whole idea seems to have fallen on deaf ears (maybe because it's no good), but I've left the code around just in case anyone shows any interest. Have a look <a href="https://github.com/wicked-rainman/DAPL">here</a> if you are interested.   
+Spent quite a while writing the <i>Data Analist Programming Language</i>. It's supposed to make life a bit easier when your looking for interesting patterns of activity in things like Web logs Etc. The whole idea seems to have fallen on deaf ears (maybe because it's no good), but I've left the code around just in case anyone shows any interest. Have a look [here](https://github.com/wicked-rainman/DAPL) if you are interested.   
 
 ------------
 
