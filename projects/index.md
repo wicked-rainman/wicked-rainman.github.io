@@ -15,7 +15,7 @@ __Micro dot pHAT for a Raspberry Pi__
 
 ![](/pictures/phat1.png)
 
-Recently bought a Micro Dot pHAT to go on a Raspberry Pi. Onboard are three IS31FL3730 chips and three pairs of matrix displays, driven by I2C.  It comes as a kit so you have to solder on the GPIO connector and all the DIL led display chips (The IS31FL3730 have already been installed) which took me about half an hour.  
+Recently bought a Micro Dot pHAT to go on a Raspberry Pi. Onboard are three smt IS31FL3730 chips and three pairs of matrix displays all driven over I2C.  It comes as a kit so you have to solder on the GPIO connector and all the DIL led display chips (The IS31FL3730 have already been installed) which took me about half an hour.  
 
 I couldn't find  any C programs to get the board going (everyone seems to love python these days!) In the end I grabbed fragments of code I found on the Internet and wrote a small set of [functions](https://github.com/wicked-rainman/Rpi-Micro-Dot-pHAT) that I think are useful. Help yourself if you were looking for a simple solution.
 
