@@ -13,7 +13,7 @@ Spent quite a while writing the _Data Analist Programming Language_. It's suppos
 
 __Micro dot pHAT for a Raspberry Pi__
 
-![](/pictures/phat1.png "It's upside down so the Raspberry pi can sit flat")
+![](/pictures/phat1.png "It's upside down so the Raspberry pi can sit flat. I've coded the fonts so they are up-side down too.")
 
 Recently bought a Micro Dot pHAT to go on a Raspberry Pi. Onboard are three smt IS31FL3730 chips and three pairs of matrix displays all driven over I2C.  It comes as a kit so you have to solder on the GPIO connector and all the DIL displays (The IS31FL3730 have already been installed). This took me about half an hour.  
 
