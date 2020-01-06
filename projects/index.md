@@ -23,5 +23,7 @@ I couldn't find  any C programs to get the board going (everyone seems to love p
 
 __Indoor display for Aercus IP weather station__
 
-A few years ago I purchased an [Aercus}(http://www.aercusinstruments.com/aercus-instruments-weathersleuth-professional-ip-weather-station-with-direct-real-time-internet-monitoring/) weather station. and configured it to send all the data to Weather Underground.
+A few years ago I purchased an [Aercus](http://www.aercusinstruments.com/aercus-instruments-weathersleuth-professional-ip-weather-station-with-direct-real-time-internet-monitoring/) weather station. and configured it to send all the data to Weather Underground. My only complaint about this devices is it doesn't come with an indoor display.  
+
+You can view the weather data by directly connecting to the device's HTTP port, but I wanted something I could glance at without firing up a PC. To solve this I used a Raspberry Pi with a [Micro dot pHAT](https://shop.pimoroni.com/products/microdot-phat?variant=25454635591) attached and wrote a bit of [code](https://github.com/wicked-rainman/Aercus-IP-weather-station) to connect over WiFi and scrape the web page. The code runs in a loop forever, so you either need to background it as a process or write a daemon so it runs from boot up time.  
 
