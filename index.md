@@ -2,8 +2,9 @@
 layout: default
 title: Wicked Rainman
 ---
-
+<center>
 # Hi there, I'm Wicked Rainman
+  </center>
 <p align="center" >
   <img src="/pictures/marv.png">
 </p>
