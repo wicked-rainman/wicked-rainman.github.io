@@ -7,6 +7,12 @@ title: Wicked Rainman's projects
 
 ---------------------
 
+__Aercus weather station UDB broadcaster
+
+I got bored with using a Micro dot Phat for my indoor weather display, so instead I've branched out to write a UDP broadcaster for the weather values. It allows me to have an unlimited number of displays on various platforms. If it's of any interest, have a look at the code [_here_]((https://github.com/wicked-rainman/Aercus-Weather-Station). Enjoy!
+
+--------------------
+
 __Indoor display for Aercus IP weather station__
 
 A few years ago I purchased an [_Aercus_](http://www.aercusinstruments.com/aercus-instruments-weathersleuth-professional-ip-weather-station-with-direct-real-time-internet-monitoring/ "God bless the Aercus folks in New Zealand, but you can buy them in the UK from www.greenfrogscientific.co.uk" ) weather station. and configured it to send all the data to [_Weather Underground_](https://www.wunderground.com/). My only complaint about this devices is it doesn't come with an indoor display.  
