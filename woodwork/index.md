@@ -1,10 +1,7 @@
-<div align="center">
-
 # Woodwork Projects
 
 __Plywood Engine__
 
-  </div>
 
 Decided to have a go at making a simple electric (DC) engine using wood.
 
@@ -19,11 +16,8 @@ The cam is an old bit of brass that I hand filed into a suitable shape. The four
 
 I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are [_here_](https://github.com/wicked-rainman/STL/blob/master/engine.stl) and [_here_](https://github.com/wicked-rainman/STL/blob/master/engin2.stl)
 
-<div align="center">
 
 ![](/pictures/Engine.png "Plywood engine")
-
-</div>
 
 -------------------------
 <div align="center">
