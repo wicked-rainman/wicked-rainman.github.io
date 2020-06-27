@@ -6,9 +6,9 @@ layout: feed
 
 	<title>Wicked Rainman's Blog</title>
 	<link href="http://wicked-rainman.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://wicked-rainman.github.io/blog"/>
+	<link href="http://wicked-rainman.github.io/wood"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://wicked-rainman.github.io/blog</id>
+	<id>http://wicked-rainman.github.io/wood</id>
 	<author>
 		<name>Wicked Rainman</name>
 	</author>
