@@ -1,5 +1,7 @@
 
-# Woodwork-engine
+# Woodwork Projects
+
+__Woodwork-Engine__
 Decided to have a go at making a simple electric (DC) engine using wood.
 
 Most of the components in this are made from 12mm Ply except for the crank and spokes on the fly wheel (which I made from offcuts of mahogany).
@@ -14,5 +16,7 @@ The cam is an old bit of brass that I hand filed into a suitable shape. The four
 I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are [_here_](https://github.com/wicked-rainman/Woodwork-engine).
 
 ![](/pictures/Engine.png "Plywood engine")
+
+-------------------------
 
 
