@@ -12,3 +12,5 @@ The wire I used on the coil was a bit too thin (It gets warm). To make and break
 The cam is an old bit of brass that I hand filed into a suitable shape. The four bearings (Two for the crank and two for the fly wheel shaft) were just odds-and-sods I had in my spares box.
 
 ![](/pictures/Engine.png "Plywood engine")
+
+I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are here
