@@ -1,7 +1,7 @@
 
 # Woodwork Projects
 
-__Woodwork-Engine__
+__Plywood Engine__
 
 Decided to have a go at making a simple electric (DC) engine using wood.
 
