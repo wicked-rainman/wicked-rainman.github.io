@@ -29,7 +29,7 @@ Found a picture of Odin with [Hugin and Munin](https://en.wikipedia.org/wiki/Hug
 maintained by [Daniel McCoy](https://norse-mythology.org/about-me/ "Creator of the website and the writer of all of the articles on it"). 
 
 Apparently the image above has been taken from an Iron Age helment found in Sweden. I've copied it and tried to convert it 
-to an SVG format so it can be re-scaled. Its stored [_here_](https://github.com/wicked-rainman/Server-Vector-Graphics/odin.svg) if you want to have a go yourself.
+to an SVG format so it can be re-scaled. Its stored [_here_](https://github.com/wicked-rainman/Server-Vector-Graphics/blob/master/odin.svg) if you want to have a go yourself.
 
 ![](/pictures/odin.png "Odin with Hugin and Munin")
 
