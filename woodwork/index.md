@@ -1,6 +1,7 @@
 
 # Woodwork Projects
 <div align="center">
+
 __Plywood Engine__
   </div>
 
@@ -17,11 +18,18 @@ The cam is an old bit of brass that I hand filed into a suitable shape. The four
 
 I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are [_here_](https://github.com/wicked-rainman/Woodwork-engine).
 
+<div align="center">
+
 ![](/pictures/Engine.png "Plywood engine")
 
+</div>
+
 -------------------------
+<div align="center">
 
 __Odin with Hugin and Mumin__
+
+</div>
 
 ![](https://norse-mythology.org/wp-content/uploads/2012/11/Vendel-helmet-300x296.jpg "Two ravens sit on his (Odin’s) shoulders and whisper all the news which they see and hear into his ear; they are called Huginn and Muninn. He sends them out in the morning to fly around the whole world, and by breakfast they are back again. Thus, he finds out many new things and this is why he is called ‘raven-god’ (hrafnaguð).")
 
