@@ -9,8 +9,10 @@ The connecting rod is made from an old 5mm diameter nail I just cut down to size
 
 The wire I used on the coil was a bit too thin (It gets warm). To make and break the coil connection I used an old scroll saw blade that sits bent out so it makes contact with the cam. The blade acts much like a microswitch (which I didn't have). When the cam rotates, the scroll saw blade touches a little metal contact to complete the coil circuit. 
 
-The cam is an old bit of brass that I hand filed into a suitable shape. The four bearings (Two for the crank and two for the fly wheel shaft) were just odds-and-sods I had in my spares box.
+The cam is an old bit of brass that I hand filed into a suitable shape. The four bearings (Two for the crank and two for the fly wheel shaft) were just odds-and-sods I had in my spares box. 
+
+I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are [_here_](https://github.com/wicked-rainman/Woodwork-engine).
 
 ![](/pictures/Engine.png "Plywood engine")
 
-I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are [_here_](https://github.com/wicked-rainman/Woodwork-engine).
+
