@@ -20,11 +20,8 @@ I drew up the design using Tinkercad and printed out the individual shapes on A4
 ![](/pictures/Engine.png "Plywood engine")
 
 -------------------------
-<div align="center">
 
 __Odin with Hugin and Mumin__
-
-</div>
 
 Found a picture of Odin with [Hugin and Munin](https://en.wikipedia.org/wiki/Huginn_and_Muninn "Scholars have linked Odin's relation to Huginn and Muninn to shamanic practice.") on a [web site](https://norse-mythology.org/gods-and-creatures/others/hugin-and-munin/ "Norse Mythology for Smart People provides reliable, well-documented information on the enthralling mythology and religion of the Norse and other Germanic peoples. If that’s what you’re looking for, you’ve come to the right place.")
 maintained by [Daniel McCoy](https://norse-mythology.org/about-me/ "Creator of the website and the writer of all of the articles on it"). 
