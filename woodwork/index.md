@@ -31,5 +31,7 @@ maintained by [Daniel McCoy](https://norse-mythology.org/about-me/ "Creator of t
 Apparently the image below has been taken from an Iron Age helment found in Sweden. I've copied it and tried to convert it 
 to an SVG format so it can be re-scaled. 
 
-Stored [_here_](https://github.com/wicked-rainman/Woodwork-engine) is the SVG conversion if you want to have a go yourself.
+Stored [_here_](https://github.com/wicked-rainman/Woodwork-Odin) is the SVG conversion if you want to have a go yourself.
+
+![](/pictures/odin.png "Odin with Hugin and Munin")
 
