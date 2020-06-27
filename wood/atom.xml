@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Wicked Rainman's Blog</title>
+	<title>Wicked Rainman's woodwork projects</title>
 	<link href="http://wicked-rainman.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://wicked-rainman.github.io/wood"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
