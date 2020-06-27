@@ -13,4 +13,4 @@ The cam is an old bit of brass that I hand filed into a suitable shape. The four
 
 ![](/pictures/Engine.png "Plywood engine")
 
-I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are here
+I drew up the design using Tinkercad and printed out the individual shapes on A4 as a cutting template. If you want to have a go, the STL files are [_here_](https://github.com/wicked-rainman/Woodwork-engine).
