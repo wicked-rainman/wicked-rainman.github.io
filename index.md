@@ -7,7 +7,5 @@ __________________
 <p align="center" >
   <img src="/pictures/marv.png">
 </p>
-->
-# Hi. I'm Marv. Nice to meet you
-<-
+-> # Hi. I'm Marv. Nice to meet you <-
 
