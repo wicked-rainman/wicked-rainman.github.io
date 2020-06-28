@@ -5,4 +5,4 @@ title: Links to various projects
 
 [Data Analists Programming Language](DAPL.md)  
 
-[Aercus Weather station indoor display](AercusWeatherStationIndoorDisplay.md)
+[Aercus Weather station local displays](AercusWeatherStation.md)
