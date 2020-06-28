@@ -33,6 +33,6 @@ The UdpBroadcaster code could still forward the received packet to Weather Under
 
 ![](/pictures/wstack.png "Just look at those lovely colours!")
 
-Here's a picture of the UDP Curses Client [udpCursesClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/udpCursesClient.c)runnning under Ubuntu. The progress bar along the bottom makes it easy to see if it's still receiving packets from the UdpBroadcaster.
+Here's a picture of the UDP Curses Client runnning under Ubuntu. The progress bar along the bottom makes it easy to see if it's still receiving packets from the UdpBroadcaster.
 
 ![](/pictures/udplisten.png)
