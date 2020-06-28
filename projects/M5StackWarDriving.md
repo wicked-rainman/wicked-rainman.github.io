@@ -11,7 +11,7 @@ have (Mostly, if I'm honest I bought it because its red). If you buy this versio
 but [_you pays your money and you takes your choice!_](https://www.macmillandictionary.com/dictionary/british/you-pays-your-money-and-you-takes-your-chance-choice "And 
 you thought I was just using bad grammer")
 
-There's also a range of backpack styled modules available. They get attached to the back of the unit and are held in place by magnets 
+There's also a range of backpack styled modules available. They get attached to the back of the unit (Duh!) and are held in place by magnets 
 embedded in the case. All in all, quite a fun product to play with. I shelled out further and bought a GPS backpack. WiFi and Bluetooth 
 are built in, so that meant I could write some [war driving code](https://github.com/wicked-rainman/M5Stack-Fire "WiFi scanning") and maybe do some Bluetooth scanning. With the addition of a  usb battery bank, 
 it seems to work very well!
