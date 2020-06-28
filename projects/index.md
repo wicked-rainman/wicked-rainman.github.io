@@ -3,12 +3,8 @@ layout: default
 title: Wicked Rainman's projects
 ---
 
-# Programming projects  
-Data Analists Programming Language [DAPL](DAPL.md)
-
-
-
----------------------
+# Various projects  
+Data Analists Programming Language [DAPL](DAPL.md)  
 
 __Aercus weather station UDP broadcaster__
 
