@@ -13,4 +13,4 @@ title: Links to various projects
 
 [Driving the MicroDotPhat using the c language](MicroDotPhat.md)
 
-[Scrollsaw relief of Odin with Hugin and Mumin](odin.md)
+[Scrollsaw relief of Odin with Hugin and Mumin](Odin.md)
