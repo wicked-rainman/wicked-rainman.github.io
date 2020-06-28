@@ -26,7 +26,7 @@ I've seen other folk write a network traffic sniffer to achieve the same results
 
 The UdpBroadcaster code could still forward the received packet to Weather Underground, but I've simply not bothered to writte code to do that yet.
 
-![](https://github.com/wicked-rainman/wicked-rainman.github.io/blob/master/pictures/wstack.png "Just look at those lovely colours!")
+![](/pictures/wstack.png "Just look at those lovely colours!")
 
 Here's a picture of the udpCursesClient.c runnning under Ubuntu. The progress bar along the bottom makes it easy to see if it's still receiving packets from the UdpBroadcaster.
 
