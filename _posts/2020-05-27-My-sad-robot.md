@@ -14,3 +14,6 @@ If that wasn't bad enough, it's got two processors onboard. One for drive maneuv
 
 By the way, SPAD stands for [single photon avalanche diode](https://en.wikipedia.org/wiki/Single-photon_avalanche_diode "Wikipedia link") and nothing rude. I stumbled
 across them when googling for gadgets in a fit of boredom. Once I had found out about them, one just had to be included. All I can say is, thank god I wasn't googling minature diesel engines!
+
+If you fancy having a go yourself, the STL file is [here](https://github.com/wicked-rainman/STL/blob/master/3WheeledRobot.stl). Don't waste too much money
+like me...
