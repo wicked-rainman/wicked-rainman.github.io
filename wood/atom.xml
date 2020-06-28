@@ -13,12 +13,12 @@ layout: feed
 		<name>Wicked Rainman</name>
 	</author>
 
-	{% for post in site.wood %}
+	{% for wood in site.wood %}
 		<entry>
-			<title>{{ post.title }}</title>
+			<title>{{ wood.title }}</title>
 			<link href="http://wicked-rainman.github.io{{ wood.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://wicked-rainman.github.io{{ post.id }}</id>
+			<updated>{{ wood.date | date_to_xmlschema }}</updated>
+			<id>http://wicked-rainman.github.io{{ wood.id }}</id>
 			<content type="html">{{ wood.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
