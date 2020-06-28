@@ -16,7 +16,7 @@ view the data on as many  devices as I like, provided they are connected to my l
 
 The code to do this (written for a Raspberry pi) is held in file [UdpBroadcaster.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/UdpBroadcaster.c "Re-broadcasting TCP client data as UDP packets") I run it as a demon service using systemctl.
 
-I've written some client code for an M5Stack (M5StackUdpClient.ino), a simple Unix terminal client (simpleUdpClient.c) and a Unix curses version (udpCursesClient.c).
+I've written some client code for an M5Stack [M5StackUdpClient](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/M5StackUdpClient.ino), a simple Unix terminal client (simpleUdpClient.c) and a Unix curses version (udpCursesClient.c).
 
 In the rpi directory you'll find a sockets based client for a Raspberry Pi that reads and translates the get request directly from the weather station and displays it on a dot-matrix display. It works well, but I've abandoned this idea because it only allows for one client display at any one time.
 
@@ -28,6 +28,6 @@ The UdpBroadcaster code could still forward the received packet to Weather Under
 
 ![](/pictures/wstack.png "Just look at those lovely colours!")
 
-Here's a picture of the udpCursesClient.c runnning under Ubuntu. The progress bar along the bottom makes it easy to see if it's still receiving packets from the UdpBroadcaster.
+Here's a picture of the UDP Curses Client [udpCursesClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/udpCursesClient.c)runnning under Ubuntu. The progress bar along the bottom makes it easy to see if it's still receiving packets from the UdpBroadcaster.
 
 ![](/pictures/udplisten.png)
