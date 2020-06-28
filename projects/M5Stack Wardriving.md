@@ -1,4 +1,4 @@
-__War driving with an M5Stack__
+# War driving with an M5Stack
 
 ![](/pictures/M5stack.png "You would have thought I could have cleaned the crud off the screen before taking the picture, but no!")
 
