@@ -14,10 +14,14 @@ I have a few Raspberry Pis on my network all the time, so I wrote a simple socke
 from the station, extracts out all the weather values and then re-sends this sanitised data as a broadcast udp packet. This allows me to 
 view the data on as many  devices as I like, provided they are connected to my local network.
 
-The code to do this (written for a Raspberry pi) is held in file [UdpBroadcaster.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/UdpBroadcaster.c "Re-broadcasting TCP client data as UDP packets") I run it as a demon service using systemctl.
+The code to do this (written for a Raspberry pi) is held in file 
+[UdpBroadcaster.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/UdpBroadcaster.c "Re-broadcasting TCP client data as UDP packets") 
+I run this as a demon service using systemctl.
 
-I've written an [M5StackUdpClient](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/M5StackUdpClient.ino), a simple Unix terminal client [simpleUdpClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/simpleUdpClient.c) and a Unix curses version (udpCursesClient.c).
-[udpCursesClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/udpCursesClient.c)
+I've written an 
+[M5StackUdpClient](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/M5StackUdpClient.ino), a simple Unix terminal client 
+[simpleUdpClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/simpleUdpClient.c) and a Unix curses version
+[udpCursesClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/udpCursesClient.c).
 
 In the rpi directory you'll find a sockets based client for a Raspberry Pi that reads and translates the get request directly from the weather station and displays it on a dot-matrix display. It works well, but I've abandoned this idea because it only allows for one client display at any one time.
 
