@@ -13,7 +13,7 @@ layout: feed
 		<name>Wicked Rainman</name>
 	</author>
 
-	{% for post in site.code %}
+	{% for post in site.drafts %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://wicked-rainman.github.io{{ post.url }}"/>
