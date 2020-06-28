@@ -1,4 +1,4 @@
-__Micro dot pHAT for a Raspberry Pi__
+# Micro dot pHAT for a Raspberry Pi
 
 ![](/pictures/phat1.png "It's upside down so the Raspberry pi can sit flat. I've coded the fonts so they are up-side down too.")
 
@@ -9,6 +9,6 @@ driven over I2C.  It comes as a kit so you have to solder on the GPIO connector 
 been installed). This took me about half an hour.  
 
 I couldn't find  any C programs to get the board going (everyone seems to love python these days!) In the end I grabbed fragments of 
-code I found on the Internet and wrote a small set of C [_functions_](https://github.com/wicked-rainman/Rpi-Micro-Dot-pHAT "Print a 
+code I found on the Internet and wrote a small set of C [functions](https://github.com/wicked-rainman/Rpi-Micro-Dot-pHAT "Print a 
 string, update and reset the display and set brightness using the chip's PWM and Current registers") that I think are useful. Help 
 yourself if you were looking for a simple solution.
