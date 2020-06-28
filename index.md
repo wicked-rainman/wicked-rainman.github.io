@@ -8,6 +8,6 @@ __________________
   <img src="/pictures/marv.png">
 </p>
 
-# Hi. I'm Wicked Rainman
+# Hi. I'm Marv. Nice to meet you
 
 
