@@ -1,4 +1,4 @@
-__Plywood Engine__
+# Plywood Engine
 
 
 Decided to have a go at making a simple electric (DC) engine using wood.
