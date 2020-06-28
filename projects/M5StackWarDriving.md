@@ -13,6 +13,5 @@ you thought I was just using bad grammer")
 
 There's also a range of backpack styled modules available. They get attached to the back of the unit and are held in place by magnets 
 embedded in the case. All in all, quite a fun product to play with. I shelled out further and bought a GPS backpack. WiFi and Bluetooth 
-are built in, so that meant I could write some [_war driving code and a bluetooth 
-scanner_](https://github.com/wicked-rainman/M5Stack-Fire "WiFi and Bluetooth scanning"). With the addition of a  usb battery bank, 
+are built in, so that meant I could write some [war driving code](https://github.com/wicked-rainman/M5Stack-Fire "WiFi scanning") and maybe do some Bluetooth scanning. With the addition of a  usb battery bank, 
 it seems to work very well!
