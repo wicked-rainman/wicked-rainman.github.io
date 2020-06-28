@@ -23,7 +23,7 @@ To display the data i've written an
 [simpleUdpClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/simpleUdpClient.c) and a Unix curses version
 [udpCursesClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/udpCursesClient.c).
 
-In the rpi [directory](https://github.com/wicked-rainman/Aercus-Weather-Station/tree/master/rpi) you'll find a sockets based client for a Raspberry Pi that reads and translates the get request directly from the weather station and displays it on a dot-matrix display. It works well, but I've abandoned this idea because it only allows for one client display at any one time.
+In the [rpi directory](https://github.com/wicked-rainman/Aercus-Weather-Station/tree/master/rpi) you'll find a sockets based client for a Raspberry Pi that reads and translates the get request directly from the weather station and displays it on a dot-matrix display. It works well, but I've abandoned this idea because it only allows for one client display at any one time.
 
 The picture below shows the client running on an M5Stack Fire. The bar graph at the top shows the humidity and the yellow block right at the bottom moves each time an update is received.... Obviously, with a small screen only some of the weather values are being displayed.
 
