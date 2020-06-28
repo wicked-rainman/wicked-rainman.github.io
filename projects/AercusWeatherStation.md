@@ -18,7 +18,7 @@ The code to do this (written for a Raspberry pi) is held in file
 [UdpBroadcaster.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/UdpBroadcaster.c "Re-broadcasting TCP client data as UDP packets") 
 I run this as a demon service using systemctl.
 
-I've written an 
+To display the data i've written an 
 [M5StackUdpClient](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/M5StackUdpClient.ino), a simple Unix terminal client 
 [simpleUdpClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/simpleUdpClient.c) and a Unix curses version
 [udpCursesClient.c](https://github.com/wicked-rainman/Aercus-Weather-Station/blob/master/udpCursesClient.c).
