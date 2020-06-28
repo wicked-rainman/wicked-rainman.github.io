@@ -14,7 +14,7 @@ I have a few Raspberry Pis on my network all the time, so I wrote a simple socke
 from the station, extracts out all the weather values and then re-sends this sanitised data as a broadcast udp packet. This allows me to 
 view the data on as many  devices as I like, provided they are connected to my local network.
 
-The code to do this (written for a Raspberry pi) is held in file [UdpBroadcaster.c](https://github.com/wicked-rainman/Aercus-Weather-Station "Re-broadcasting TCP client data as UDP packets") I run it as a demon service using systemctl.
+The code to do this (written for a Raspberry pi) is held in file [UdpBroadcaster.c](https://github.com/wicked-rainman/Aercus-Weather-Station/UdpBroadcaster.c "Re-broadcasting TCP client data as UDP packets") I run it as a demon service using systemctl.
 
 I've written some client code for an M5Stack (M5StackUdpClient.ino), a simple Unix terminal client (simpleUdpClient.c) and a Unix curses version (udpCursesClient.c).
 
