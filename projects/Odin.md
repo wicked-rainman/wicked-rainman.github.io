@@ -1,4 +1,4 @@
-__Odin with Hugin and Mumin__
+# Odin with Hugin and Mumin
 
 Found a picture of Odin astride his horse Sleipnir, with [Hugin and Munin](https://en.wikipedia.org/wiki/Huginn_and_Muninn "Scholars have linked Odin's relation to Huginn and Muninn to shamanic practice.") on his sholders whilst visiting a [web site](https://norse-mythology.org/gods-and-creatures/others/hugin-and-munin/ "Norse Mythology for Smart People provides reliable, well-documented information on the enthralling mythology and religion of the Norse and other Germanic peoples. If that’s what you’re looking for, you’ve come to the right place.")
 maintained by [Daniel McCoy](https://norse-mythology.org/about-me/ "Creator of the website and the writer of all of the articles on it"). I have a soft spot for old simplistic images like this and tried to reproduce it as a wooden relief panel.
