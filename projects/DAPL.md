@@ -5,7 +5,7 @@ when your looking for interesting patterns of activity in things like Web logs E
 fallen on deaf ears (maybe because it's no good, or maybe because the 
 [_target audience_](https://wiki.openrightsgroup.org/wiki/Cyber_Specials "Cyber Police volunteers - but because 
 it's a new line of work for the Police, all the volunteers have given up trying") couldn't see past the end of 
-their noses), but I've left the code around just in case anyone shows any interest. Have a look 
+their noses), but I've left the code around just in case anyone shows any interest. Have a look at the repository 
 [_here_](https://github.com/wicked-rainman/DAPL "Go on, click it. You know you want to!") if you are interested.   
 
 
