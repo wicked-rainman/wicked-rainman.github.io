@@ -12,4 +12,5 @@ If that wasn't bad enough, it's got two processors onboard. One for drive maneuv
 
 ![](/pictures/robot.png "One way to waste 3d fillament")
 
-By the way, SPAD stands for [single photon avalanche diode](https://en.wikipedia.org/wiki/Single-photon_avalanche_diode) and nothing rude.
+By the way, SPAD stands for [single photon avalanche diode](https://en.wikipedia.org/wiki/Single-photon_avalanche_diode) and nothing rude. I stumbled
+across them when googling for gadgets in a fit of boredom. Once I had found one, it had to be included.
