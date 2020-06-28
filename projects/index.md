@@ -4,7 +4,7 @@ title: Wicked Rainman's projects
 ---
 
 # Programming projects  
-
+[a relative link](/folder/myrelativefile.md)
 ---------------------
 
 __Aercus weather station UDP broadcaster__
