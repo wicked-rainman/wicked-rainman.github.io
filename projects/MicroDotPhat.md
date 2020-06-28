@@ -9,18 +9,6 @@ driven over I2C.  It comes as a kit so you have to solder on the GPIO connector 
 been installed). This took me about half an hour.  
 
 I couldn't find  any C programs to get the board going (everyone seems to love python these days!) In the end I grabbed fragments of 
-code I found on the Internet and wrote a small set of C [functions](https://github.com/wicked-rainman/Rpi-Micro-Dot-pHAT "Print a 
-string, update and reset the display and set brightness using the chip's PWM and Current registers") that I think are useful. Help 
-yourself if you were looking for a simple solution.
-
-In the repository you will find the following:
-
-reset(int f_discriptor) : Resets the display and puts it back into default mode.
-
-update(int f_discriptor) : Updates the display with any characters that have been sent
-
-bright(int f_discriptor, int display_current, int display_pwm) : Sets the LED brightness of the display
-
-printstr(int f_discriptor, char string) : Sends a string to the display for printing
-
-printchar(int f_discriptor, int position, int char) : Sends a character to one of the 6 matrix displays
+code I found on the Internet and wrote a small set of C 
+[functions](https://github.com/wicked-rainman/Rpi-Micro-Dot-pHAT "Print a string, update and reset the display and set brightness using the chip's PWM and Current registers") 
+that I think are useful. Help yourself if you were looking for a simple solution.
