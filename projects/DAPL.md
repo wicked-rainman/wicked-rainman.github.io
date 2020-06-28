@@ -18,7 +18,7 @@ components of Model 204. The underlying language is C and has only been tested o
 focus in all this work has been to keep things small, lean and simple.
 
 Provisions are made for dealing with other forms of data through a conversion process 
-_(Currently only one such converter exists - for processing spam E-mail)_. 
+(Currently only one such converter exists - for processing spam E-mail). 
 
 A small range of standalone utilities that aid dealing with IP related data have been included, albeit they are 
 separate (but replicated) from the core DAPL wrapper. Data "fusion" can take place through inbuilt lookup functions
