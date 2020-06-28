@@ -1,4 +1,4 @@
-__DAPL__     
+## DAPL   
 
 I Spent quite a while writing the __Data Analyst Programming Language__. It's supposed to make life a bit easier 
 when your looking for interesting patterns of activity in things like Web logs Etc. The whole idea seems to have 
@@ -9,7 +9,7 @@ their noses), but I've left the code around just in case anyone shows any intere
 [_here_](https://github.com/wicked-rainman/DAPL "Go on, click it. You know you want to!") if you are interested.   
 
 
-##   OVERVIEW 
+### OVERVIEW
 
 DAPL is a program language wrapper intended to simplify the process of analysing large volumes of structured 
 single-line records (for example HTTP, SSH and Audit logs, phone or building access logs and the like). 
