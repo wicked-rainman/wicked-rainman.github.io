@@ -3,7 +3,7 @@
 40 years ago  (1980) I was a new Trainee Data Processer. For me this was a big step up from my previous job as a NATO SPLC writer, but in reality it  left me with my feet firmly planted at the bottom of the ladder.  
 
 To put this into context, part time cleaners felt at liberty to cock a snoot 
-at me when I was working. HR didn’t exist, and a [*safe space*](https://en.wikipedia.org/wiki/Safe_space "A domicile for Snow Flakes") hadn’t been invented  yet for me to seek solice in.  I was the machine-room "punch bag" newbie.
+at me when I was working. HR didn’t exist, and a [*safe space*](https://en.wikipedia.org/wiki/Safe_Space_(South_Park) "A domicile for Snow Flakes") hadn’t been invented  yet for me to seek solice in.  I was the machine-room "punch bag" newbie.
 
 I got delegated away  into some dark corner to operate an "end of life" IBM 360/85. Left to my own devices I recall running it as being quite fun, so today I decided to try and look up the specification of this behemoth. This proved quite difficult as it seems not many of these things of wonder were ever made. 
 
