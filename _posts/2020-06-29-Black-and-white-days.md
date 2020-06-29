@@ -5,7 +5,7 @@
 To put this into context, part time cleaners felt at liberty to cock a snoot 
 at me when I was working. HR didn’t exist, and a [safe space](https://en.wikipedia.org/wiki/Safe_space "A domicile for Snow Flakes") hadn’t been invented  yet for me to seek solice in.  I was the machine-room "punch bag" newbie.
 
-I got deligated away  into some dark corner to operate an "end of life" IBM 360/85. Left to my own devices I recall running it as being quite fun, so today I decided to try and look up the specification of this behemoth. This proved quite difficult as it seems not many of these things of wonder were ever made. 
+I got delegated away  into some dark corner to operate an "end of life" IBM 360/85. Left to my own devices I recall running it as being quite fun, so today I decided to try and look up the specification of this behemoth. This proved quite difficult as it seems not many of these things of wonder were ever made. 
 
 From what I can gather (after a bit of Googling), it could process 3.5K’s worth of instructions per second, had 2Mb of memory and 32K of cache.  This machine consumed vast quantities of electricity, weighed around 6500 Kilograms and was about half the size of a tennis court. By today’s standards that’s not much computing power for two Million quid...
 
