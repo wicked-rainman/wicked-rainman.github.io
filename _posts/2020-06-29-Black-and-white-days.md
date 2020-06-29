@@ -1,4 +1,4 @@
-[](/pictures/esp32.png)
+![](/pictures/esp32.png "They all look a bit grubby when you zoom in")
 
 40 years ago  (1980) I was a Trainee Data Processer. For me this was a big step up from my previous job as a NATO SPLC writer, but in reality it  left me with my feet firmly placed at the bottom of the ladder.  
 
