@@ -4,10 +4,8 @@ lower grade of employee. Part time cleaners felt at liberty to cock a snoot with
 [_safe-space_](https://en.wikipedia.org/wiki/Safe_space “a domicile for snowflakes" ) hadn’t been invented yet.  
 
 Being a newbie, I was left to operate an (end of life) IBM 360/85. When left to my own devices, I recall it being quite 
-fun to use, so today I decided to try and look up the specification of this behemoth.  
-
-This proved quite difficult as it seems not many of them were made, but from what I can gather it could process 3.5K’s worth of 
-instructions per second, had 2Mb of memory and 32K of cache. 
+fun to use, so today I decided to try and look up the specification of this behemoth. This proved quite difficult as it seems not many of 
+them were made, but from what I can gather it could process 3.5K’s worth of instructions per second, had 2Mb of memory and 32K of cache. 
 
 This machine consumed vast quantities of electricity, weighed around 6500 Kilograms and was about half the size of a tennis court.  
 By today’s standards that’s not much computing power for 2 Million quid...
