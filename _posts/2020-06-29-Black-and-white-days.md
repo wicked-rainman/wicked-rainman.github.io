@@ -1,3 +1,5 @@
+[](/pictures/esp32.png)
+
 40 years ago  (1980) I was a Trainee Data Processer. For me this was a big step up from my previous job as a NATO SPLC writer, but in reality it  left me with my feet firmly placed at the bottom of the ladder.  
 
 To put this into context, part time cleaners felt at liberty to cock a snoot 
