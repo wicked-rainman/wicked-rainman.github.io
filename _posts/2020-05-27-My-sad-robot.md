@@ -1,8 +1,4 @@
-Well I finished building my robot. 
-
-__I don't want it.__ 
-
-I only started on it because I'm so bored with the __lockdown__.
+Well I finished building my robot. __I don't really want it.__ I only started on it because I'm so bored with the __lockdown__.
 
 It's the most ridiculous thing I've made in a long time. 
 
