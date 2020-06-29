@@ -12,5 +12,5 @@ From what I can gather (after a bit of Googling), it could process 3.5K’s wort
 Roll the clock forward to today. My son has given me a Heltec single board computer. It’s got a built in screen, runs at 240Mhz, 
 has 4MB of flash memory and 320KB of RAM (Ebay sell them for  just under 8 quid). 
 
-I can’t be bothered to try and work out just how many times faster this little board is,  but it’s easily going to kick the 360 into touch.  
-Maybe it’s an unfair comparison - but if it was a Raspberry Pi 4…...
+I can’t be bothered to try and work out just how many times faster this little board is,  but it’s easily going to kick the IBM 360 into touch.  
+Maybe it’s an unfair comparison but on the other hand, if I were to look at a Raspberry Pi 4…...
