@@ -1,6 +1,6 @@
 ![](/pictures/esp32.png "They all look a bit grubby when you zoom in")
 
-40 years ago  (1980) I was a new Trainee Data Processer. For me this was a big step up from my previous job as a NATO SPLC writer, but in reality it  left me with my feet firmly placed at the bottom of the ladder.  
+40 years ago  (1980) I was a new Trainee Data Processer. For me this was a big step up from my previous job as a NATO SPLC writer, but in reality it  left me with my feet firmly planted at the bottom of the ladder.  
 
 To put this into context, part time cleaners felt at liberty to cock a snoot 
 at me when I was working. HR didn’t exist, and a [safe space](https://en.wikipedia.org/wiki/Safe_space "A domicile for Snow Flakes") hadn’t been invented  yet for me to seek solice in.  I was the machine-room "punch bag" newbie.
