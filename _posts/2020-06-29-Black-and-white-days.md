@@ -1,6 +1,6 @@
 40 years ago  (1980) I was a Trainee Data Processer. For me this was a big step up from my previous job as a NATO SPLC writer, but 
 it still left me with my feet firmly placed at the bottom of the ladder.  To put this into context, in those days there wasn’t a 
-lower grade of employee. Part time cleaners cocked a snoot with impunity, HR didn’t exist and a
+lower grade of employee. Part time cleaners felt at liberty to cock a snoot with impunity, HR didn’t exist and a
 [_safe-space_](https://en.wikipedia.org/wiki/Safe_space “a domicile for snowflakes" ) hadn’t been invented yet.  
 
 Being a newbie, I was left to operate an (end of life) IBM 360/85. When left to my own devices, I recall it being quite 
