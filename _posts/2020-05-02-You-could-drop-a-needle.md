@@ -1,4 +1,4 @@
-![](/pictures/Chelters.png "Zombi apocalyspe")
+![](/pictures/Chelters.png "Zombie apocalyspe")
 
 Lockdown has started to ease.
 
