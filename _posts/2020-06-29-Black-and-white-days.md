@@ -3,7 +3,7 @@ it still left me with my feet firmly placed at the bottom of the ladder.  To put
 lower grade of employee. Part time cleaners cocked a snoot with impunity, HR didn’t exist and a
 [_safe-space_](https://en.wikipedia.org/wiki/Safe_space “a domicile for snowflakes" ) hadn’t been invented yet.  
 
-Being a newbie, I was left to operate an (end of life) IBM 360/85. When left to my own devices, I recall it as actually being quite 
+Being a newbie, I was left to operate an (end of life) IBM 360/85. When left to my own devices, I recall it being quite 
 fun to use, so today I decided to try and look up the specification of this behemoth.  
 
 This proved quite difficult as it seems not many of them were made, but from what I can gather it could process 3.5K’s worth of 
