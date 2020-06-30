@@ -1,5 +1,8 @@
-# The Aercus weather station
+---
+description: Aercus Weather station UDP broadcast
+---
 
+# The Aercus weather station
 
 ![](/pictures/aercus_small.png)
 
