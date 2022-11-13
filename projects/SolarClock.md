@@ -65,8 +65,8 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 
  <p align="center">
  
-  ![](/pictures/TimingWheel.png)
-  
+ ![](/pictures/TimingWheel.png)
+ 
  </p>
  <p align="center">
  <b>The mark and space variation</b>
