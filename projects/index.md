@@ -14,3 +14,5 @@ title: Links to various projects
 [Driving the MicroDotPhat using the c language](MicroDotPhat.md)
 
 [Scrollsaw relief panel depicting Odin with Hugin and Mumin](Odin.md)
+
+[A gewjaw electronic solar clock](SolarClock.md)
