@@ -1,5 +1,5 @@
 I noticed that my bank account has been credited with 60 odd quid. Did a bit of research and discovered that it's one of those 
-[_Energy Bills support scheme discounts_](https://www.gov.uk/guidance/getting-the-energy-bills-support-scheme-discount "AKA The Government have some free cash scheme") that I've been reading so much about in the news just recently.
+[_Energy Bills support scheme discounts_](https://www.gov.uk/guidance/getting-the-energy-bills-support-scheme-discount "AKA The Government have some free cash scheme. Let's not means test it. The rich need to feel loved as well!") that I've been reading so much about in the news just recently.
 
 I'm always onboard for a bit of free cash, but it did start me off thinking....
 
