@@ -4,5 +4,5 @@ title: Wicked Rainman
 ---
 __________________
 
-# Hi. I'm Marv. Nice to meet you.
-![](/pictures/mug.png#center)
+<H1 align="center"> Hi. I'm Marv. Nice to meet you.</H1>
+<img align="center" src="/pictures/mug.png">
