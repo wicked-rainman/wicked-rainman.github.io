@@ -1,4 +1,4 @@
-<H1 align="center">Gewgaw electronic solar clock...</H1>
+<H1 align="center">Gewgaw electronic solar clock</H1>
 <p align="center">
 <img width="800" height="677" src="/pictures/SolarClock.jpg">
  </p>
