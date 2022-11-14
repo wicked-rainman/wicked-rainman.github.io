@@ -60,23 +60,8 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 
 - The Stepper client and server communicate over WiFi using UDP. What with the M5Stick's built in battery this removes any need for wiring between the stepper base and rotator. I decided on UDP rather than TCP to reduce cpu loads. Communication re-tries are seen, but the current code seems to address this shortfall.
 
-```mermaid
-sequenceDiagram
-    participant StepperClient
-    participant StepperServer
-    participant UDPBroadcast
-    Note left of StepperClient: Press M5Stick<BR/> Button A.
-    StepperClient->>StepperServer: Rotate request for 50 North, UDP port 5001
-    StepperServer->>StepperClient: Ack on UDP port 5002, now pointing 50 North
-    activate StepperClient
-    Note left of StepperClient: Repeat in 1 degree<br>increments until<BR/>310 degrees reached.
-    StepperClient->>StepperServer: Rotate request for 1 degree clockwiseff (UDP port 5001)
-    StepperServer->>StepperClient: Rotate 1 degree Ack, (UDP 5002)
-    StepperClient->>UDPBroadcast: Lux and Azimuth values (UDP port 5003)
-    deactivate StepperClient
-    Note left of StepperClient: Sweep completed
-    StepperClient->>UDPBroadcast: Azimuth with max Lux result
-```
+![](/pictures/SolarClockDiag.png)
+
 - As already highlighted, the apeture box face must be pointing towards true north. When the front button on the M5Stick is pressed, degree position zero is assumed. The rotate to the 50 degrees start point (after a short pause) is then initiated. After that, the "1 degree at a time" step scan for the brightest bearing takes place.
 
 - At some stage, it could be that the HM1750 sensor will need to be vertically rotated from 10 to 65 degrees during the scan. Doing this might provide better resolution as to where the sun really is - I'll only know after doing some tests.
