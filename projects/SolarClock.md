@@ -1,6 +1,6 @@
-# SolarClock
+# Gewjaw SolarClock
 
- ![](../pictures/SolarClock.jpg)
+ ![](/pictures/SolarClock.jpg)
  
 This project shouldn't be confused with a plan to design a clock powered by solar energy. That's not what this is about. Instead, it represents an academic attempt at calculating the time based on the position of the sun in the sky.
 
@@ -24,7 +24,7 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 
 - Going back to the drawing board again, I've since discovered that for my geographic area, the magnetic declination is currently 0.12 mins, i.e. 0.2 degrees. I don't know what the annual variation is, but I'm heading towards the more simple concept of just drawing an accurate east/west line. I'll position the rotating head at a right angles to this before I start. I can draw the rhumb line "offline" so there is no equipment interference and for now, just accept the accuracy of a normal bearing compass. 
 
-![](../pictures/Sundial.jpg "Back garden experiment - after a long wait for a cloudless day")
+![](/pictures/Sundial.jpg "Back garden experiment - after a long wait for a cloudless day")
 
 - Performed some cross check tests in the back garden to correlate the whole magnetic north/true north solar time theory. I don't know why, but I'm surprised at just how accurate the results are. This gives me some confidence that I should be able to correctly calculate the time within at least a 15 min window. Clearly, my earlier views were just plain wrong! 
    
@@ -55,13 +55,8 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 - In the UK, the sun can rise at 50 degrees east and set at 310 west (this is it's local maximum azimuth boundary). The stepper motor client has therefore been set to only sweep between these angles, one degree (but 30 odd stepper motor half steps) at a time. In theory, this should allow for a resolution of about 2 mins, but I doubt that such accuracy is achievable.
 - The HM1750 light sensor on the client has been set up so it only has a 1mm vertical view of the sky (from an elevation of 10 degrees through to 65 - the minimum and maximum throughout the year. The container box for the sensor looks odd, but there is a reason behind this. Obviously, the closer the sensor is to the apeture, the more of the sky can be seen (Think peeping through a keyhole). Given that the stepper platform is being advanced by one degree at a time, it seemed to make sense for the sensor view to be similarly restricted. I have no idea if this is the right decision, but it's only another 3d print away from being correctable!. In theory, 360mm circle circumference means a 57.3mm viewing radius - thus the odd size and shape.  
 - The pulley ratio on the stepper server is 3:1 - I.E, the stepper motor has to rotate three times in order for the output pulley (the base) to rotate once. The timing disc has 60 slots in it - giving 120 pulses (60 on and 60 off) per revolution. 120 x 3 = 360. The stepper motor seems to take 40 odd half steps to clear a slot and roughly 20 to clear each space. Part of the reason for this difference is that the top edges of the space segments are narrower than the bottom. Using Tinkercad I couldn't see a way round this issue - but I don't believe it's going to matter that much. If it does become problematic the difference can be catered for in the code.
-
- <p align="center">
-  
-   ![](../pictures/TimingWheel.png "Half way through the print..")
-   
- </p>
- <p align="center"> <b>The mark and space variation</b> </p>
+ 
+![](/pictures/TimingWheel.png "Half way through the print..")
 
 - The Stepper client and server communicate over WiFi using UDP. What with the M5Stick's built in battery this removes any need for wiring between the stepper base and rotator. I decided on UDP rather than TCP to reduce cpu loads. Communication re-tries are seen, but the current code seems to address this shortfall.
 
@@ -95,7 +90,7 @@ On the 15th June 2022 I managed to get a set of tests done using an apeture slit
 
 <p align="center">
  
-   ![](../pictures/0923.png)
+   ![](/pictures/0923.png)
 
 </p>
 
