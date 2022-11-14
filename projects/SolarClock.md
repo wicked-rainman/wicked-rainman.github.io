@@ -1,8 +1,7 @@
 # SolarClock
 <p align="center">
  
-![](/pictures/SolarClock.jpg "The finished prototype Solar clock")
-
+ ![](../pictures/SolarClock.jpg "The finished prototype Solar clock")
 </p>
  
 This project shouldn't be confused with a plan to design a clock powered by solar energy. That's not what this is about. Instead, it represents an academic attempt at calculating the time based on the position of the sun in the sky.
@@ -29,7 +28,7 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 
 <p align="center">
  
-  ![](/pictures/Sundial.jpg "Back garden experiment - after a long wait for a cloudless day")
+  ![](../pictures/Sundial.jpg "Back garden experiment - after a long wait for a cloudless day")
  
 </p>
 
@@ -65,7 +64,7 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 
  <p align="center">
   
-   ![](/pictures/TimingWheel.png "Half way through the print..")
+   ![](../pictures/TimingWheel.png "Half way through the print..")
    
  </p>
  
@@ -105,14 +104,14 @@ On the 15th June 2022 I managed to get a set of tests done using an apeture slit
 
 <p align="center">
  
-   ![](/pictures/0923.png)
+   ![](../pictures/0923.png)
 
 </p>
 
 The second test was run at 09:26. Again, the tables show an azimuth of 101.9 degrees and 103.2 for 09:30AM. For bearing 101 I got a value of 3613. For 102 the value was 18735 and for 103, 13504. 
 <p align="center">
  
-   ![](/pictures/0925.png)
+   ![](../pictures/0925.png)
 
 </p>
 Here, as you can see, the highest bearing was 102. It's interesting (to me) that I got a high'ish value for bearing 101, but the light peak is still very obvious. I'm very pleased with the results because with these short tests I seem to be well within a +/- 5 mins tolerance. That's better than I initially expected. Clearly I will have to embed some lookup table in the code, but that's easy. For now I'm going to focus on trying to improve the accuracy and mark this down as prototype version 1. 
