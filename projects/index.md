@@ -15,4 +15,4 @@ title: Links to various projects
 
 [Scrollsaw relief panel depicting Odin with Hugin and Mumin](Odin.md)
 
-[A gewjaw electronic solar clock](SolarClock.md)
+[A gewgaw electronic solar clock](SolarClock.md)
