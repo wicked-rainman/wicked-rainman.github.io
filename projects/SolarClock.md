@@ -23,9 +23,11 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 
 - 12th June 2022. Finished an evaluation of another magnetometer, the BMM150. I chose this one to test because it's actually sold as a viable and accurate compass. In my usecase, this still proved to be unreliable. I have a suspicion that even after calibration the environment is too electrically noisy. I'm currently planning to drop the idea of using any of these i2c devices, although I might change my mind at a later stage. I'm now thinking there may need to be a physically separate component to this project in order to perform the initial allignment. 
 
-- Going back to the drawing board again, I've since discovered that for my geographic area, the magnetic declination is currently 0.12 mins, i.e. 0.2 degrees. I don't know what the annual variation is, but I'm heading towards the more simple concept of just drawing an accurate east/west line. I'll position the rotating head at a right angles to this before I start. I can draw the rhumb line "offline" so there is no equipment interference and for now, just accept the accuracy of a normal bearing compass. 
-
-![](/pictures/Sundial.jpg "Back garden experiment - after a long wait for a cloudless day")
+- Going back to the drawing board again, I've since discovered that for my geographic area, the magnetic declination is currently 0.12 mins, i.e. 0.2 degrees. I don't know what the annual variation is, but I'm heading towards the more simple concept of just drawing an accurate east/west line. I'll position the rotating head at a right angles to this before I start. I can draw the rhumb line "offline" so there is no equipment interference and for now, just accept the accuracy of a normal bearing compass.
+-  
+<p align="center">
+<img width="800" height="677" src="/pictures/Sundial.jpg">
+ </p>
 
 - Performed some cross check tests in the back garden to correlate the whole magnetic north/true north solar time theory. I don't know why, but I'm surprised at just how accurate the results are. This gives me some confidence that I should be able to correctly calculate the time within at least a 15 min window. Clearly, my earlier views were just plain wrong! 
    
@@ -56,12 +58,16 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 - In the UK, the sun can rise at 50 degrees east and set at 310 west (this is it's local maximum azimuth boundary). The stepper motor client has therefore been set to only sweep between these angles, one degree (but 30 odd stepper motor half steps) at a time. In theory, this should allow for a resolution of about 2 mins, but I doubt that such accuracy is achievable.
 - The HM1750 light sensor on the client has been set up so it only has a 1mm vertical view of the sky (from an elevation of 10 degrees through to 65 - the minimum and maximum throughout the year. The container box for the sensor looks odd, but there is a reason behind this. Obviously, the closer the sensor is to the apeture, the more of the sky can be seen (Think peeping through a keyhole). Given that the stepper platform is being advanced by one degree at a time, it seemed to make sense for the sensor view to be similarly restricted. I have no idea if this is the right decision, but it's only another 3d print away from being correctable!. In theory, 360mm circle circumference means a 57.3mm viewing radius - thus the odd size and shape.  
 - The pulley ratio on the stepper server is 3:1 - I.E, the stepper motor has to rotate three times in order for the output pulley (the base) to rotate once. The timing disc has 60 slots in it - giving 120 pulses (60 on and 60 off) per revolution. 120 x 3 = 360. The stepper motor seems to take 40 odd half steps to clear a slot and roughly 20 to clear each space. Part of the reason for this difference is that the top edges of the space segments are narrower than the bottom. Using Tinkercad I couldn't see a way round this issue - but I don't believe it's going to matter that much. If it does become problematic the difference can be catered for in the code.
- 
-![](/pictures/TimingWheel.png "Half way through the print..")
+
+ <p align="center">
+<img width="600" height="600" src="/pictures/TimingWheel.png">
+ </p>
 
 - The Stepper client and server communicate over WiFi using UDP. What with the M5Stick's built in battery this removes any need for wiring between the stepper base and rotator. I decided on UDP rather than TCP to reduce cpu loads. Communication re-tries are seen, but the current code seems to address this shortfall.
-
-![](/pictures/SolarClockDiag.png)
+ 
+<p align="center">
+<img width="857" height="600" src="/pictures/SolarClockDiag.png">
+ </p>
 
 - As already highlighted, the apeture box face must be pointing towards true north. When the front button on the M5Stick is pressed, degree position zero is assumed. The rotate to the 50 degrees start point (after a short pause) is then initiated. After that, the "1 degree at a time" step scan for the brightest bearing takes place.
 
@@ -73,12 +79,16 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 # Interim results
 
 On the 15th June 2022 I managed to get a set of tests done using an apeture slit width of just over 1mm. It was a bright sunny day with a clear sky, so it seemed an ideal time. After manually aligning the sensor with true north (by sight), I performed the first test at 09:23AM. According to the tables I'm using as a reference, the sun should have an azimuth of 100.79 degrees and then 101.9 at 09:25AM. During this first test, the sensor returned a value of 54612 for bearing 100 and 51554 for 101. All other light readings had low 3 digits values. 
- 
-![](/pictures/0923.png)
 
-The second test was run at 09:26. Again, the tables show an azimuth of 101.9 degrees and 103.2 for 09:30AM. For bearing 101 I got a value of 3613. For 102 the value was 18735 and for 103, 13504. 
+<p align="center">
+<img width="800" height="424" src="/pictures/0923.png">
+ </p> 
 
-![](../pictures/0925.png)
+The second test was run at 09:26. Again, the tables show an azimuth of 101.9 degrees and 103.2 for 09:30AM. For bearing 101 I got a value of 3613. For 102 the value was 18735 and for 103, 13504.
+
+<p align="center">
+<img width="800" height="424" src="/pictures/0925.png">
+ </p>
 
 Here, as you can see, the highest bearing was 102. It's interesting (to me) that I got a high'ish value for bearing 101, but the light peak is still very obvious. I'm very pleased with the results because with these short tests I seem to be well within a +/- 5 mins tolerance. That's better than I initially expected. Clearly I will have to embed some lookup table in the code, but that's easy. For now I'm going to focus on trying to improve the accuracy and mark this down as prototype version 1. 
 
