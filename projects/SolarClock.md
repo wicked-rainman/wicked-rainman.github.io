@@ -82,6 +82,6 @@ The second test was run at 09:26. Again, the tables show an azimuth of 101.9 deg
 Here, as you can see, the highest bearing was 102. It's interesting (to me) that I got a high'ish value for bearing 101, but the light peak is still very obvious. I'm very pleased with the results because with these short tests I seem to be well within a +/- 5 mins tolerance. That's better than I initially expected. Clearly I will have to embed some lookup table in the code, but that's easy. For now I'm going to focus on trying to improve the accuracy and mark this down as prototype version 1. 
 
 
-[Here's ](https://youtube.com/shorts/W4BCCfyBn9M) a really dull video of it running during the test. 
+[Here's ](https://youtube.com/shorts/W4BCCfyBn9M) a really dull video of it running during the test and if you want to look at the current code you can find it [here](https://github.com/wicked-rainman/SolarClock/tree/main/Code)
 
 To be continued...  
