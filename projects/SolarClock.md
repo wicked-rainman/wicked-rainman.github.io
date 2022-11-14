@@ -1,4 +1,4 @@
-# Gewjaw SolarClock
+# Gewgaw SolarClock
 
  ![](/pictures/SolarClock.jpg)
  
