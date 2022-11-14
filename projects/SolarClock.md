@@ -1,6 +1,6 @@
 # Gewgaw SolarClock
 
- ![](/pictures/SolarClock.jpg)
+![](/pictures/SolarClock.jpg)
  
 This project shouldn't be confused with a plan to design a clock powered by solar energy. That's not what this is about. Instead, it represents an academic attempt at calculating the time based on the position of the sun in the sky.
 
@@ -18,7 +18,7 @@ When I started out on this venture, I tried using an I2C based compass (LSM303) 
 ## North
 Finding true north is problematic. You could use a normal magnetic compass and deal with the offset, but from what research I've done so far this seems a little vague (Magnetic north is always on the move). I'm still considering adding some form of gnomon to the rotator base so it can be aligned (after performing solar observations), but that loses the semi-instant gratification of just pushing a button I've also been considering a gyro, but that leads towards the chicken and egg situation of still not actually knowing where true north is in the first place. I've read some of the physics and I'm well aware that a gyro can achieve this because it's affected by the rotation of the earth. Such a gyro is really expensive and I don't think I'm capable of constructing one of my own. For now I'm going to carry on testing commercially availble magnetometers to see if there's something better than the LSM303. Watch this space.
 
-<b><i>Updates:</i></b>
+## *Updates:*
 
 - 12th June 2022. Finished an evaluation of another magnetometer, the BMM150. I chose this one to test because it's actually sold as a viable and accurate compass. In my usecase, this still proved to be unreliable. I have a suspicion that even after calibration the environment is too electrically noisy. I'm currently planning to drop the idea of using any of these i2c devices, although I might change my mind at a later stage. I'm now thinking there may need to be a physically separate component to this project in order to perform the initial allignment. 
 
