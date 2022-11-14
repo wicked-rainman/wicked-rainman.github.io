@@ -1,4 +1,4 @@
-# Gewgaw SolarClock
+# Gewgaw electronic solar clock
 
 ![](/pictures/SolarClock.jpg) 
 
