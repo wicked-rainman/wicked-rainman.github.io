@@ -23,11 +23,7 @@ Finding true north is problematic. You could use a normal magnetic compass and d
 
 - Going back to the drawing board again, I've since discovered that for my geographic area, the magnetic declination is currently 0.12 mins, i.e. 0.2 degrees. I don't know what the annual variation is, but I'm heading towards the more simple concept of just drawing an accurate east/west line. I'll position the rotating head at a right angles to this before I start. I can draw the rhumb line "offline" so there is no equipment interference and for now, just accept the accuracy of a normal bearing compass. 
 
-<p align="center">
- 
-  ![](../pictures/Sundial.jpg "Back garden experiment - after a long wait for a cloudless day")
- 
-</p>
+![](../pictures/Sundial.jpg "Back garden experiment - after a long wait for a cloudless day")
 
 - Performed some cross check tests in the back garden to correlate the whole magnetic north/true north solar time theory. I don't know why, but I'm surprised at just how accurate the results are. This gives me some confidence that I should be able to correctly calculate the time within at least a 15 min window. Clearly, my earlier views were just plain wrong! 
    
@@ -64,10 +60,7 @@ Finding true north is problematic. You could use a normal magnetic compass and d
    ![](../pictures/TimingWheel.png "Half way through the print..")
    
  </p>
- 
- <p align="center">
- <b>The mark and space variation</b>
-</p>
+ <p align="center"> <b>The mark and space variation</b> </p>
 
 - The Stepper client and server communicate over WiFi using UDP. What with the M5Stick's built in battery this removes any need for wiring between the stepper base and rotator. I decided on UDP rather than TCP to reduce cpu loads. Communication re-tries are seen, but the current code seems to address this shortfall.
 
