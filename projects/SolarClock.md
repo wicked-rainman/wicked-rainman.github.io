@@ -1,8 +1,5 @@
 # SolarClock
-<p align="center">
- 
  ![](../pictures/SolarClock.jpg "The finished prototype Solar clock")
-</p>
  
 This project shouldn't be confused with a plan to design a clock powered by solar energy. That's not what this is about. Instead, it represents an academic attempt at calculating the time based on the position of the sun in the sky.
 
