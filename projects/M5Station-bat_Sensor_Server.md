@@ -3,24 +3,20 @@
 <img width="800" height="677" src="/pictures/PXL_20221213_091805288.jpg">
  </p>
 
-I spend many a happy hour looking out the windows as the clouds pass by (it's got nothing to do with me being bored out of my skull). To enhance this
-activity I've chosen to build a fairly pointless portable weather station. It's pointless because I never go anywhere.
+I can spend many a happy hour looking out the windows as the clouds pass by (nothing to do with me being bored out of my skull). To enhance this
+excitement I've built a portable weather station. It's all pointless because I never go anywhere, but that's besides the point.
 
-That's probably why I take some mild interest in the weather. 
-- A "Stepper motor server" being driven via an M5Atom-matrix, although any esp32/Arduino type platform would do. I chose the Matrix because I had one spare and could make use of the LED array for added glitz.
-- A "Stepper client" that will read light values and instruct the server how far to rotate after each reading. This component is based round an M5Stick because it's got a built in battery that helps negate the need for trailing wires being dragged round by the rotating platform.
+My objectives were:
 
-When I started out on this venture, I tried using an I2C based compass (LSM303) for azimuth alignment. Like any "sundial", you have to know which way is north. The LSM303 claimed a 0.1 degree resolution, but after some failed tests and a bit of reading I discovered that although the resolution is good, accuracy is +-5 degrees. Given that the earth rotates through roughly 15 degrees in an hour, It just wouldn't provide the accuracy I'm looking for. So, in the end I went back to the drawing board and came up with a timing disk design. The main drawback of this approach is you need to manually ensure the light sensing unit is facing true north whenever you press the inevitable "go" button. This dosen't satisfy me as a solution, but for now it will have to do.
++ To make up an excuse to buy an M5Station-bat (because they look cool and have built in batteries that will give a long run time).
++ To see if I could hack together a string of sensors all attached to one I2C port
++ To have a go at moving from the Arduino IDE to Visual Studio Code and Platformio. 
++ Make something with a minimal web interface.
++ Design and print a cool case that makes it look like an expensive gadget.
 
-## North
-Finding true north is problematic. You could use a normal magnetic compass and deal with the offset, but from what research I've done so far this seems a little vague (Magnetic north is always on the move). I'm still considering adding some form of gnomon to the rotator base so it can be aligned (after performing solar observations), but that loses the semi-instant gratification of just pushing a button I've also been considering a gyro, but that leads towards the chicken and egg situation of still not actually knowing where true north is in the first place. I've read some of the physics and I'm well aware that a gyro can achieve this because it's affected by the rotation of the earth. Such a gyro is really expensive and I don't think I'm capable of constructing one of my own. For now I'm going to carry on testing commercially availble magnetometers to see if there's something better than the LSM303. Watch this space.
+As far as projects go, I think I met all the objectives except the last one. My 3D printer has given up the ghost, which is why all the sensors 
+are just stuffed into a crappy box. At that stage I lost all interest - yet I'm still typing.
 
-## *Updates:*
+## Implementation
 
-- 12th June 2022. Finished an evaluation of another magnetometer, the BMM150. I chose this one to test because it's actually sold as a viable and accurate compass. In my usecase, this still proved to be unreliable. I have a suspicion that even after calibration the environment is too electrically noisy. I'm currently planning to drop the idea of using any of these i2c devices, although I might change my mind at a later stage. I'm now thinking there may need to be a physically separate component to this project in order to perform the initial allignment. 
 
-- Going back to the drawing board again, I've since discovered that for my geographic area, the magnetic declination is currently 0.12 mins, i.e. 0.2 degrees. I don't know what the annual variation is, but I'm heading towards the more simple concept of just drawing an accurate east/west line. I'll position the rotating head at a right angles to this before I start. I can draw the rhumb line "offline" so there is no equipment interference and for now, just accept the accuracy of a normal bearing compass.
--  
-<p align="center">
-<img width="800" height="677" src="/pictures/Sundial.jpg">
- </p>
