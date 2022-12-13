@@ -44,3 +44,8 @@ connect each hub I used all the slots anyway.
 <p align="center">
 <img width="600" height="800" src="/pictures/PXL_20221213_091716852.jpg">
  </p>
+
+Anyway, now it all works I can disconnect it all and put the M5Station into my desk draw. Perhaps when I've saved up enough for a new 3D printer I'll 
+resurrect this idea and finish the project off. 
+
+It's looking cloudy outside today.....
