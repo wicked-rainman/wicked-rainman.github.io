@@ -6,7 +6,7 @@
 I can spend many a happy hour looking out the windows as the clouds pass by. To enhance this enjoyment I've built a portable weather station. 
 It's all pointless because I never go anywhere, but that's besides the point.
 
-My objectives were:
+## My objectives were:
 
 + To make up an excuse to buy an M5Station-bat (because they look cool and have built in batteries that will give a long run time.
 + To see if I could hack together a string of sensors all attached to one I2C port
@@ -29,11 +29,17 @@ string records to it gives me about 15 mins of recording time (I could extend th
 
 + All the other sensors (TVOC/eCO2, Lux, Temperature and pressure) just plug in to the I2C string with no fuss. That just left some timing issues.
 I use the GPS to set the RTC, so I have to wait around reading serial data until I come across the sentence I'm after, then do the RTC update. I also need
-to read all the other sensors (which takes some time) and keep a lock on my current GPS position. In the end, I solved this issue by writing a time-slice
-dispatcher that will only allow each read function to continue for an alloted time. It seems to work quite well..
+to read all the other sensors (which takes some time),keep a lock on my current GPS position and update the battery status. In the end, I solved this issue by writing a time-slice dispatcher class that will only allow each function to continue for an alloted time. It seems to work quite well..
 
 + The I2C string turned out fine. I used a couple of I2C multi-gang hub boards. There are 5 I2C devices to string together. Disappointingly I could only
 get hold of hub boards with 4 sockets (there are versions with 6, but couldn't source any), so with the uplink to the ESP board and a jumper to
 connect each hub I used all the slots anyway.
 
+## Code
 
++ The Dispatcher code can be found [here](https://github.com/wicked-rainman/ESP32Dispatcher). I'm sure I'll use it again on other projects so I think it was worth the effor
++ The MyStation code is [here](https://github.com/wicked-rainman/PortableWeatherStation). 
+
+<p align="center">
+<img width="600" height="800" src="/pictures/PXL_20221213_091716852.jpg">
+ </p>
