@@ -11,7 +11,7 @@ It's all pointless because I never go anywhere, but that's besides the point.
 + To make up an excuse to buy an M5Station-bat (because they look cool and have built in batteries that will give a long run time.
 + To see if I could hack together a string of sensors all attached to one I2C port
 + To have a go at moving from the Arduino IDE to Visual Studio Code and Platformio. 
-+ Make something with a minimal AP interface.
++ Make something with a minimalist AP interface.
 + Design and print a cool case that makes it look like something more expensive.
 
 As far as projects go, I think I met all the objectives except the last one. My 3D printer has given up the ghost, which is why all the sensors 
