@@ -1,6 +1,6 @@
 <H1 align="center">M5Station as a portable weather and environment monitor</H1>
 <p align="center">
-<img width="800" height="677" src="/pictures/SolarClock.jpg">
+<img width="800" height="677" src="/pictures/PXL_20221213_091805288.jpg">
  </p>
 
 I spend many a happy hour looking out the windows as the clouds pass by (it's got nothing to do with me being bored out of my skull). To enhance this
