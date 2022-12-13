@@ -15,7 +15,7 @@ My objectives were:
 + Design and print a cool case that makes it look like an expensive gadget.
 
 As far as projects go, I think I met all the objectives except the last one. My 3D printer has given up the ghost, which is why all the sensors 
-are just stuffed into a crappy box. At that stage I lost all interest - yet I'm still typing.
+are stuffed into a crappy box. At that stage I lost all interest - yet I'm still typing.
 
 ## Implementation
 
